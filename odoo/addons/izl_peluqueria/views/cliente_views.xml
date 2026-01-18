@@ -9,6 +9,7 @@
                 <field name="apellido"/>
                 <field name="telefono"/>
                 <field name="email"/>
+                <field name="total_citas"/>
             </tree>
         </field>
     </record>
@@ -28,6 +29,7 @@
                         <field name="telefono"/>
                         <field name="email"/>
                         <field name="fecha_nacimiento"/>
+                        <field name="total_citas" readonly="1"/>
                     </group>
                     <notebook>
                         <page string="Citas">
