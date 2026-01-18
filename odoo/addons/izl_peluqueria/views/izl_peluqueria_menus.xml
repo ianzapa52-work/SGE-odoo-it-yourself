@@ -19,23 +19,11 @@
     <record id="izl_peluqueria_action_citas" model="ir.actions.act_window">
         <field name="name">Citas</field>
         <field name="res_model">izl_peluqueria.cita</field>
-        <field name="view_mode">calendar,tree,form</field>
+        <field name="view_mode">graph,calendar,tree,form</field>
         <field name="search_view_id" ref="view_izl_peluqueria_cita_search"/>
     </record>
 
     <menuitem id="izl_peluqueria_menu_citas_action" parent="izl_peluqueria_menu_citas" action="izl_peluqueria_action_citas"/>
-
-    <record id="view_izl_peluqueria_cita_calendar" model="ir.ui.view">
-        <field name="name">izl_peluqueria.cita.calendar</field>
-        <field name="model">izl_peluqueria.cita</field>
-        <field name="arch" type="xml">
-            <calendar string="Calendario de Citas" date_start="fecha">
-                <field name="cliente_id"/>
-                <field name="servicio_id"/>
-                <field name="empleado_id"/>
-            </calendar>
-        </field>
-    </record>
 
     <record id="izl_peluqueria_action_empleados" model="ir.actions.act_window">
         <field name="name">Empleados</field>

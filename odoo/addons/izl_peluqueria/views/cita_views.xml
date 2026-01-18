@@ -30,7 +30,7 @@
             </form>
         </field>
     </record>
-    
+
     <record id="view_izl_peluqueria_cita_calendar" model="ir.ui.view">
         <field name="name">izl_peluqueria.cita.calendar</field>
         <field name="model">izl_peluqueria.cita</field>
@@ -40,6 +40,17 @@
                 <field name="servicio_id"/>
                 <field name="empleado_id"/>
             </calendar>
+        </field>
+    </record>
+
+    <record id="view_izl_peluqueria_cita_graph" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cita.graph</field>
+        <field name="model">izl_peluqueria.cita</field>
+        <field name="arch" type="xml">
+            <graph string="Citas por Empleado" type="bar">
+                <field name="empleado_id" type="row"/>
+                <field name="id" type="measure"/>
+            </graph>
         </field>
     </record>
 
