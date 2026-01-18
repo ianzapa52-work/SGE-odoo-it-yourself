@@ -17,3 +17,12 @@ class IzlCliente(models.Model):
     def _compute_total_citas(self):
         for cliente in self:
             cliente.total_citas = len(cliente.cita_ids)
+
+    def action_ver_citas(self):
+        return {
+            'type': 'ir.actions.act_window',
+            'name': 'Citas del Cliente',
+            'res_model': 'izl_peluqueria.cita',
+            'view_mode': 'tree,form',
+            'domain': [('cliente_id', '=', self.id)],
+        }

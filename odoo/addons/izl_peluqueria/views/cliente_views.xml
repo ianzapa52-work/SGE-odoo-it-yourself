@@ -19,6 +19,15 @@
         <field name="model">izl_peluqueria.cliente</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                    <button name="action_ver_citas"
+                            type="object"
+                            class="oe_stat_button"
+                            icon="fa-calendar"
+                            string=" Citas">
+                        <field name="total_citas" widget="statinfo"/>
+                    </button>
+                </header>
                 <sheet>
                     <group>
                         <field name="image_1920" widget="image"/>
