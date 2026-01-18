@@ -11,6 +11,7 @@
         'views/servicio_views.xml',
         'views/cita_views.xml',
         'views/izl_peluqueria_menus.xml',
+        'views/cita_search_views.xml',
     ],
     'installable': True,
     'application': True

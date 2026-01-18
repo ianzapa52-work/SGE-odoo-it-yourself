@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_izl_peluqueria_cita_search" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cita.search</field>
+        <field name="model">izl_peluqueria.cita</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="cliente_id"/>
+                <field name="empleado_id"/>
+                <field name="servicio_id"/>
+
+                <filter name="futuras" string="Futuras" domain="[('fecha','>',context_today())]"/>
+                <filter name="pasadas" string="Pasadas" domain="[('fecha','&lt;', context_today())]"/>
+
+
+                <group expand="0" string="Agrupar por">
+                    <filter name="group_empleado" string="Empleado" context="{'group_by':'empleado_id'}"/>
+                    <filter name="group_servicio" string="Servicio" context="{'group_by':'servicio_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

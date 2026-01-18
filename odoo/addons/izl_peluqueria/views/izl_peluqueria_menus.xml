@@ -20,6 +20,7 @@
         <field name="name">Citas</field>
         <field name="res_model">izl_peluqueria.cita</field>
         <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_izl_peluqueria_cita_search"/>
     </record>
 
     <menuitem id="izl_peluqueria_menu_citas_action" parent="izl_peluqueria_menu_citas" action="izl_peluqueria_action_citas"/>
