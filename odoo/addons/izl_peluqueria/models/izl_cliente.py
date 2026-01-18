@@ -10,4 +10,10 @@ class IzlCliente(models.Model):
     email = fields.Char(string='Correo electrónico')
     fecha_nacimiento = fields.Date(string='Fecha de nacimiento')
     image_1920 = fields.Image(string='Foto')
+
     cita_ids = fields.One2many('izl_peluqueria.cita', 'cliente_id', string='Citas')
+    total_citas = fields.Integer(string='Número de citas', compute='_compute_total_citas', store=True)
+
+    def _compute_total_citas(self):
+        for cliente in self:
+            cliente.total_citas = len(cliente.cita_ids)
