@@ -5,6 +5,7 @@
         <field name="model">izl_peluqueria.cita</field>
         <field name="arch" type="xml">
             <tree>
+                <field name="codigo"/>
                 <field name="cliente_id"/>
                 <field name="servicio_id"/>
                 <field name="empleado_id"/>
@@ -20,6 +21,7 @@
             <form>
                 <sheet>
                     <group>
+                        <field name="codigo" readonly="1"/>
                         <field name="cliente_id"/>
                         <field name="servicio_id"/>
                         <field name="empleado_id"/>

@@ -7,6 +7,7 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
+        'data/sequence.xml',
         'views/cliente_views.xml',
         'views/empleado_views.xml',
         'views/servicio_views.xml',

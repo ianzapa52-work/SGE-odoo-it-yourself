@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="seq_izl_peluqueria_cita" model="ir.sequence">
+        <field name="name">Secuencia Citas Peluquería</field>
+        <field name="code">izl_peluqueria.cita</field>
+        <field name="prefix">CITA-</field>
+        <field name="padding">4</field>
+    </record>
+</odoo>
