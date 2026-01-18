@@ -12,7 +12,7 @@ class IzlCliente(models.Model):
     image_1920 = fields.Image(string='Foto')
 
     cita_ids = fields.One2many('izl_peluqueria.cita', 'cliente_id', string='Citas')
-    total_citas = fields.Integer(string='Número de citas', compute='_compute_total_citas', store=True)
+    total_citas = fields.Integer(compute='_compute_total_citas')
 
     def _compute_total_citas(self):
         for cliente in self:
