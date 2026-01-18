@@ -6,6 +6,7 @@
     'summary': 'Gestión de clientes, citas, empleados y servicios de la peluquería',
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/cliente_views.xml',
         'views/empleado_views.xml',
         'views/servicio_views.xml',

@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+izl_peluqueria_cliente_user,Acceso clientes usuario,model_izl_peluqueria_cliente,base.group_user,1,1,0,0
+izl_peluqueria_cliente_admin,Acceso clientes admin,model_izl_peluqueria_cliente,base.group_system,1,1,1,1
+izl_peluqueria_empleado_user,Acceso empleados usuario,model_izl_peluqueria_empleado,base.group_user,1,0,0,0
+izl_peluqueria_empleado_admin,Acceso empleados admin,model_izl_peluqueria_empleado,base.group_system,1,1,1,1
+izl_peluqueria_servicio_user,Acceso servicios usuario,model_izl_peluqueria_servicio,base.group_user,1,1,0,0
+izl_peluqueria_servicio_admin,Acceso servicios admin,model_izl_peluqueria_servicio,base.group_system,1,1,1,1
+izl_peluqueria_cita_user,Acceso citas usuario,model_izl_peluqueria_cita,base.group_user,1,1,1,0
+izl_peluqueria_cita_admin,Acceso citas admin,model_izl_peluqueria_cita,base.group_system,1,1,1,1
