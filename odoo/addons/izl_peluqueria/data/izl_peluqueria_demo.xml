@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="demo_cliente_1" model="izl_peluqueria.cliente">
+        <field name="nombre">Laura</field>
+        <field name="apellido">García</field>
+        <field name="telefono">600123456</field>
+        <field name="email">laura@example.com</field>
+        <field name="fecha_nacimiento">1995-04-12</field>
+    </record>
+
+    <record id="demo_cliente_2" model="izl_peluqueria.cliente">
+        <field name="nombre">Carlos</field>
+        <field name="apellido">Martínez</field>
+        <field name="telefono">611987654</field>
+        <field name="email">carlos@example.com</field>
+        <field name="fecha_nacimiento">1988-09-20</field>
+    </record>
+
+    <record id="demo_cliente_3" model="izl_peluqueria.cliente">
+        <field name="nombre">Ana</field>
+        <field name="apellido">López</field>
+        <field name="telefono">622555444</field>
+        <field name="email">ana@example.com</field>
+        <field name="fecha_nacimiento">2000-01-05</field>
+    </record>
+
+    <record id="demo_empleado_1" model="izl_peluqueria.empleado">
+        <field name="nombre">María</field>
+        <field name="apellido">Ruiz</field>
+        <field name="telefono">633111222</field>
+        <field name="email">maria@example.com</field>
+        <field name="especialidad">Coloración</field>
+    </record>
+
+    <record id="demo_empleado_2" model="izl_peluqueria.empleado">
+        <field name="nombre">Javier</field>
+        <field name="apellido">Santos</field>
+        <field name="telefono">644222333</field>
+        <field name="email">javier@example.com</field>
+        <field name="especialidad">Corte masculino</field>
+    </record>
+
+    <record id="demo_empleado_3" model="izl_peluqueria.empleado">
+        <field name="nombre">Elena</field>
+        <field name="apellido">Moreno</field>
+        <field name="telefono">655333444</field>
+        <field name="email">elena@example.com</field>
+        <field name="especialidad">Peinados y recogidos</field>
+    </record>
+
+    <record id="demo_servicio_1" model="izl_peluqueria.servicio">
+        <field name="nombre">Corte de pelo</field>
+        <field name="descripcion">Corte clásico o moderno</field>
+        <field name="precio">15.0</field>
+    </record>
+
+    <record id="demo_servicio_2" model="izl_peluqueria.servicio">
+        <field name="nombre">Tinte completo</field>
+        <field name="descripcion">Coloración completa</field>
+        <field name="precio">35.0</field>
+    </record>
+
+    <record id="demo_servicio_3" model="izl_peluqueria.servicio">
+        <field name="nombre">Peinado</field>
+        <field name="descripcion">Peinado para eventos</field>
+        <field name="precio">20.0</field>
+    </record>
+
+    <record id="demo_servicio_4" model="izl_peluqueria.servicio">
+        <field name="nombre">Mechas</field>
+        <field name="descripcion">Mechas balayage</field>
+        <field name="precio">45.0</field>
+    </record>
+
+    <record id="demo_cita_1" model="izl_peluqueria.cita">
+        <field name="cliente_id" ref="demo_cliente_1"/>
+        <field name="servicio_id" ref="demo_servicio_1"/>
+        <field name="empleado_id" ref="demo_empleado_2"/>
+        <field name="fecha">2030-02-10 10:00:00</field>
+        <field name="nota">Corte clásico</field>
+    </record>
+
+    <record id="demo_cita_2" model="izl_peluqueria.cita">
+        <field name="cliente_id" ref="demo_cliente_2"/>
+        <field name="servicio_id" ref="demo_servicio_2"/>
+        <field name="empleado_id" ref="demo_empleado_1"/>
+        <field name="fecha">2030-02-11 12:30:00</field>
+    </record>
+
+    <record id="demo_cita_3" model="izl_peluqueria.cita">
+        <field name="cliente_id" ref="demo_cliente_3"/>
+        <field name="servicio_id" ref="demo_servicio_3"/>
+        <field name="empleado_id" ref="demo_empleado_3"/>
+        <field name="fecha">2030-02-12 09:00:00</field>
+    </record>
+
+    <record id="demo_cita_4" model="izl_peluqueria.cita">
+        <field name="cliente_id" ref="demo_cliente_1"/>
+        <field name="servicio_id" ref="demo_servicio_4"/>
+        <field name="empleado_id" ref="demo_empleado_1"/>
+        <field name="fecha">2030-02-15 16:00:00</field>
+    </record>
+
+    <record id="demo_cita_5" model="izl_peluqueria.cita">
+        <field name="cliente_id" ref="demo_cliente_2"/>
+        <field name="servicio_id" ref="demo_servicio_1"/>
+        <field name="empleado_id" ref="demo_empleado_2"/>
+        <field name="fecha">2030-02-18 11:15:00</field>
+    </record>
+
+</odoo>
