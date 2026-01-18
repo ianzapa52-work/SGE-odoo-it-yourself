@@ -12,6 +12,7 @@
         'views/cita_views.xml',
         'views/izl_peluqueria_menus.xml',
         'views/cita_search_views.xml',
+        'views/cliente_kanban_views.xml',
     ],
     'installable': True,
     'application': True

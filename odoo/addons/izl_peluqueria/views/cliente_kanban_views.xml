@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_izl_peluqueria_cliente_kanban" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cliente.kanban</field>
+        <field name="model">izl_peluqueria.cliente</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_small_column">
+                <field name="image_1920"/>
+                <field name="nombre"/>
+                <field name="apellido"/>
+                <field name="telefono"/>
+                <field name="email"/>
+
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click o_kanban_record">
+                            <div class="o_kanban_image">
+                                <img t-att-src="kanban_image('izl_peluqueria.cliente', 'image_1920', record.id.value)"/>
+                            </div>
+
+                            <div class="o_kanban_details">
+                                <strong>
+                                    <t t-esc="record.nombre.value"/>
+                                    <t t-if="record.apellido.value">
+                                        <t t-esc="record.apellido.value"/>
+                                    </t>
+                                </strong>
+
+                                <div t-if="record.telefono.value">
+                                    Tel: <t t-esc="record.telefono.value"/>
+                                </div>
+
+                                <div t-if="record.email.value">
+                                    <t t-esc="record.email.value"/>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+</odoo>
