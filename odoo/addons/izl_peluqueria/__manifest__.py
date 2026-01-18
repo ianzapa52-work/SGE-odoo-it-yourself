@@ -5,6 +5,13 @@
     'category': 'Servicios',
     'summary': 'Gestión de clientes, citas, empleados y servicios de la peluquería',
     'depends': ['base'],
+    'data': [
+        'views/cliente_views.xml',
+        'views/empleado_views.xml',
+        'views/servicio_views.xml',
+        'views/cita_views.xml',
+        'views/izl_peluqueria_menus.xml',
+    ],
     'installable': True,
     'application': True
 }

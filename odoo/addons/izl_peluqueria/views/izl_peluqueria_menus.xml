@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem id="izl_peluqueria_menu_root" name="Peluquería IZL" sequence="1"/>
+
+    <menuitem id="izl_peluqueria_menu_clientes" name="Clientes" parent="izl_peluqueria_menu_root" sequence="10"/>
+    <menuitem id="izl_peluqueria_menu_citas" name="Citas" parent="izl_peluqueria_menu_root" sequence="20"/>
+    <menuitem id="izl_peluqueria_menu_empleados" name="Empleados" parent="izl_peluqueria_menu_root" sequence="30"/>
+    <menuitem id="izl_peluqueria_menu_servicios" name="Servicios" parent="izl_peluqueria_menu_root" sequence="40"/>
+
+    <record id="izl_peluqueria_action_clientes" model="ir.actions.act_window">
+        <field name="name">Clientes</field>
+        <field name="res_model">izl_peluqueria.cliente</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="izl_peluqueria_menu_clientes_action" parent="izl_peluqueria_menu_clientes" action="izl_peluqueria_action_clientes"/>
+
+    <record id="izl_peluqueria_action_citas" model="ir.actions.act_window">
+        <field name="name">Citas</field>
+        <field name="res_model">izl_peluqueria.cita</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="izl_peluqueria_menu_citas_action" parent="izl_peluqueria_menu_citas" action="izl_peluqueria_action_citas"/>
+
+    <record id="izl_peluqueria_action_empleados" model="ir.actions.act_window">
+        <field name="name">Empleados</field>
+        <field name="res_model">izl_peluqueria.empleado</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="izl_peluqueria_menu_empleados_action" parent="izl_peluqueria_menu_empleados" action="izl_peluqueria_action_empleados"/>
+
+    <record id="izl_peluqueria_action_servicios" model="ir.actions.act_window">
+        <field name="name">Servicios</field>
+        <field name="res_model">izl_peluqueria.servicio</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="izl_peluqueria_menu_servicios_action" parent="izl_peluqueria_menu_servicios" action="izl_peluqueria_action_servicios"/>
+
+</odoo>

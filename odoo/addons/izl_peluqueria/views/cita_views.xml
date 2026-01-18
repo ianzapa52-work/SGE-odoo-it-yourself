@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_izl_peluqueria_cita_tree" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cita.tree</field>
+        <field name="model">izl_peluqueria.cita</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="cliente_id"/>
+                <field name="servicio_id"/>
+                <field name="empleado_id"/>
+                <field name="fecha"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_izl_peluqueria_cita_form" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cita.form</field>
+        <field name="model">izl_peluqueria.cita</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="cliente_id"/>
+                        <field name="servicio_id"/>
+                        <field name="empleado_id"/>
+                        <field name="fecha"/>
+                        <field name="nota"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
