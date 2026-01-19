@@ -15,7 +15,7 @@
                     <t t-name="kanban-box">
                         <div class="oe_kanban_global_click o_kanban_record">
                             <div class="o_kanban_image">
-                                <img t-att-src="kanban_image('izl_peluqueria.cliente', 'image_1920', record.id)"/>
+                                <img t-att-src="kanban_image('izl_peluqueria.cliente', 'image_1920', record.id.value)"/>
                             </div>
 
                             <div class="o_kanban_details">
