@@ -14,6 +14,8 @@
         'views/cita_views.xml',
         'views/izl_peluqueria_menus.xml',
         'views/cita_search_views.xml',
+        'views/cliente_search_views.xml',
+        'views/empleado_search_views.xml',
         'views/cliente_kanban_views.xml',
         'data/izl_peluqueria_demo.xml'
     ],

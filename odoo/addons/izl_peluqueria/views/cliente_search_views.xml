@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_izl_peluqueria_cliente_search" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cliente.search</field>
+        <field name="model">izl_peluqueria.cliente</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="nombre"/>
+                <field name="apellido"/>
+                <field name="telefono"/>
+                <field name="email"/>
+
+                <filter name="con_citas" string="Con citas" domain="[('total_citas','>',0)]"/>
+                <filter name="sin_citas" string="Sin citas" domain="[('total_citas','=',0)]"/>
+
+                <group expand="0" string="Agrupar por">
+                    <filter name="group_apellido" string="Apellido" context="{'group_by':'apellido'}"/>
+                    <filter name="group_fecha_nacimiento" string="Nacimiento" context="{'group_by':'fecha_nacimiento'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

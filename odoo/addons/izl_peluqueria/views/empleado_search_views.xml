@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_izl_peluqueria_empleado_search" model="ir.ui.view">
+        <field name="name">izl_peluqueria.empleado.search</field>
+        <field name="model">izl_peluqueria.empleado</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="nombre"/>
+                <field name="apellido"/>
+                <field name="especialidad"/>
+
+                <filter name="especialistas" string="Con especialidad" domain="[('especialidad','!=',False)]"/>
+                <filter name="sin_especialidad" string="Sin especialidad" domain="[('especialidad','=',False)]"/>
+
+                <group expand="0" string="Agrupar por">
+                    <filter name="group_especialidad" string="Especialidad" context="{'group_by':'especialidad'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>
