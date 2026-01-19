@@ -7,3 +7,5 @@ class IzlServicio(models.Model):
     nombre = fields.Char(string='Nombre del servicio', required=True)
     descripcion = fields.Text(string='Descripción')
     precio = fields.Float(string='Precio')
+
+    empleado_ids = fields.Many2many('izl_peluqueria.empleado', string='Empleados que pueden realizarlo')
