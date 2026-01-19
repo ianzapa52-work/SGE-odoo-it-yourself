@@ -4,6 +4,10 @@ class IzlCliente(models.Model):
     _name = 'izl_peluqueria.cliente'
     _description = 'Clientes de la peluquería'
 
+    _sql_constraints = [
+        ('unique_email', 'unique(email)', 'El email debe ser único.'),
+    ]
+
     nombre = fields.Char(string='Nombre', required=True)
     apellido = fields.Char(string='Apellido')
     telefono = fields.Char(string='Teléfono')
