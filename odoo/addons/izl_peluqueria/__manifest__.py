@@ -4,7 +4,7 @@
     'author': 'Ian Zapatero López',
     'category': 'Servicios',
     'summary': 'Gestión de clientes, citas, empleados y servicios de la peluquería',
-    'depends': ['base'],
+    'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
         'data/sequence.xml',

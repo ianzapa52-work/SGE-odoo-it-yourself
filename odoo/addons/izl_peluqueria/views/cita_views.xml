@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+
     <record id="view_izl_peluqueria_cita_tree" model="ir.ui.view">
         <field name="name">izl_peluqueria.cita.tree</field>
         <field name="model">izl_peluqueria.cita</field>
@@ -29,6 +30,13 @@
                         <field name="nota"/>
                     </group>
                 </sheet>
+
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="message_ids"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                </div>
+
             </form>
         </field>
     </record>
@@ -53,6 +61,18 @@
                 <field name="empleado_id" type="row"/>
                 <field name="id" type="measure"/>
             </graph>
+        </field>
+    </record>
+
+    <record id="view_izl_peluqueria_cita_pivot" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cita.pivot</field>
+        <field name="model">izl_peluqueria.cita</field>
+        <field name="arch" type="xml">
+            <pivot string="Análisis de Citas">
+                <field name="empleado_id" type="row"/>
+                <field name="servicio_id" type="col"/>
+                <field name="empleado_id" type="measure"/>
+            </pivot>
         </field>
     </record>
 

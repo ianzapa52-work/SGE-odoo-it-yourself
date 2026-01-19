@@ -19,7 +19,7 @@
     <record id="izl_peluqueria_action_citas" model="ir.actions.act_window">
         <field name="name">Citas</field>
         <field name="res_model">izl_peluqueria.cita</field>
-        <field name="view_mode">graph,calendar,tree,form</field>
+        <field name="view_mode">graph,calendar,pivot,tree,form</field>
         <field name="search_view_id" ref="view_izl_peluqueria_cita_search"/>
     </record>
 
