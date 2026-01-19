@@ -7,6 +7,7 @@
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
+        'security/izl_peluqueria_groups.xml',
         'data/sequence.xml',
         'views/cliente_views.xml',
         'views/empleado_views.xml',
