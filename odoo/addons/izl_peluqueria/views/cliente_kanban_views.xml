@@ -4,8 +4,8 @@
         <field name="name">izl_peluqueria.cliente.kanban</field>
         <field name="model">izl_peluqueria.cliente</field>
         <field name="arch" type="xml">
-            <kanban class="o_kanban_small_column">
-                <field name="image_1920"/>
+            <kanban class="o_kanban_small_column" default_group_by="apellido">
+                <field name="image_1920" widget="image" preview_image="image_1920"/>
                 <field name="nombre"/>
                 <field name="apellido"/>
                 <field name="telefono"/>
