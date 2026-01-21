@@ -7,6 +7,7 @@
         <field name="telefono">600123456</field>
         <field name="email">laura@example.com</field>
         <field name="fecha_nacimiento">1995-04-12</field>
+        <field name="image_1920">iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMB/ax3CXEAAAAASUVORK5CYII=</field>
     </record>
 
     <record id="demo_cliente_2" model="izl_peluqueria.cliente">
