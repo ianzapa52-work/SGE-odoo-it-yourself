@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_izl_peluqueria_cliente_form_inherit" model="ir.ui.view">
+        <field name="name">izl_peluqueria.cliente.form.inherit</field>
+        <field name="model">izl_peluqueria.cliente</field>
+        <field name="inherit_id" ref="izl_peluqueria.view_izl_peluqueria_cliente_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[2]" position="after">
+                <group>
+                    <field name="email" readonly="1"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
