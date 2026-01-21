@@ -54,6 +54,7 @@
         <field name="nombre">Corte de pelo</field>
         <field name="descripcion">Corte clásico o moderno</field>
         <field name="precio">15.0</field>
+        <field name="empleado_ids" eval="[(6, 0, [ref('demo_empleado_1'), ref('demo_empleado_2')])]"/>
     </record>
 
     <record id="demo_servicio_2" model="izl_peluqueria.servicio">
