@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: izl_peluqueria\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: izl_peluqueria
+msgid "Nombre"
+msgstr "Name"
+
+#. module: izl_peluqueria
+msgid "Apellido"
+msgstr "Surname"
+
+#. module: izl_peluqueria
+msgid "Teléfono"
+msgstr "Phone"
+
+#. module: izl_peluqueria
+msgid "Correo electrónico"
+msgstr "Email"
+
+#. module: izl_peluqueria
+msgid "Fecha de nacimiento"
+msgstr "Date of birth"
+
+#. module: izl_peluqueria
+msgid "Total Citas"
+msgstr "Total Appointments"
+
+#. module: izl_peluqueria
+msgid "Empleado"
+msgstr "Employee"
+
+#. module: izl_peluqueria
+msgid "Servicio"
+msgstr "Service"
