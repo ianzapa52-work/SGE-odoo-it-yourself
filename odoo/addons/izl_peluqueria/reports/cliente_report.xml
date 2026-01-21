@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="cliente_report" model="ir.actions.report">
+        <field name="name">Informe de Cliente</field>
+        <field name="model">izl_peluqueria.cliente</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">izl_peluqueria.cliente_report_template</field>
+        <field name="print_report_name">'Cliente - %s' % (object.nombre)</field>
+    </record>
+</odoo>

@@ -9,6 +9,8 @@
         'security/ir.model.access.csv',
         'security/izl_peluqueria_groups.xml',
         'data/sequence.xml',
+        'reports/cliente_report.xml',
+        'reports/cliente_report_template.xml',
         'views/cliente_views.xml',
         'views/cliente_inherit_views.xml',
         'views/empleado_views.xml',
@@ -20,7 +22,7 @@
         'views/empleado_search_views.xml',
         'views/cliente_kanban_views.xml',
         'views/cliente_activity_views.xml',
-        'data/izl_peluqueria_demo.xml'
+        'data/izl_peluqueria_demo.xml',
     ],
     'images': ['static/description/icon.png'],
     'installable': True,

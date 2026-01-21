@@ -20,6 +20,11 @@
         <field name="arch" type="xml">
             <form>
                 <header>
+                    <button name="%(cliente_report)d"
+                            string="Imprimir Informe"
+                            type="action"
+                            class="btn-primary"/>
+
                     <button name="action_ver_citas"
                             type="object"
                             class="oe_stat_button"
