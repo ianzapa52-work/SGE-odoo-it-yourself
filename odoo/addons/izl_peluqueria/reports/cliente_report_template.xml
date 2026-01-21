@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <template id="cliente_report_template">
+    <template id="izl_peluqueria.cliente_report_template">
         <t t-call="web.external_layout">
             <main class="page">
                 <t t-foreach="docs" t-as="doc">
