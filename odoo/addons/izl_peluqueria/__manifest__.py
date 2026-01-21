@@ -18,6 +18,7 @@
         'views/cliente_search_views.xml',
         'views/empleado_search_views.xml',
         'views/cliente_kanban_views.xml',
+        'views/cliente_activity_views.xml',
         'data/izl_peluqueria_demo.xml'
     ],
     'images': ['static/description/icon.png'],
