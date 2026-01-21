@@ -20,6 +20,7 @@
         'views/cliente_kanban_views.xml',
         'data/izl_peluqueria_demo.xml'
     ],
+    'images': ['static/description/icon.png'],
     'installable': True,
     'application': True
 }
