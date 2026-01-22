@@ -23,9 +23,9 @@ El módulo utiliza el prefijo:
 
 ### **`izl_peluqueria`**
 
-Siguiendo la norma *abc_keyword*, donde:
+Siguiendo la norma *abc_keyword*, en la cual:
 
-- **izl** → iniciales del alumno (Ian Zapatero López)  
+- **izl** → iniciales del alumno (Ian Zapatero López).  
 - **peluqueria** → palabra clave del dominio funcional.  
 
 Este prefijo se aplica en:
@@ -184,7 +184,7 @@ Submenús:
 - Empleados  
 - Servicios  
 
-Cada uno con su acción correspondiente y vistas adecuadas.
+Cada uno con su acción respectiva y vistas adecuadas.
 
 ---
 
@@ -220,7 +220,7 @@ Incluye:
 - Nombre.  
 - Listado de citas con fecha, servicio y empleado.  
 
-Se genera desde un botón en la vista formulario del cliente.
+Se genera desde el botón que se encuentra en la vista formulario del cliente.
 
 ---
 
@@ -257,7 +257,7 @@ El desarrollo del módulo ha permitido comprender:
 - La importancia de la coherencia en identificadores.  
 - La utilidad de los datos demo para validar funcionalidades.  
 
-El resultado es un módulo completo, funcional y alineado con las buenas prácticas de desarrollo en Odoo.
+El resultado se trata de un módulo completo, funcional y alineado con las buenas prácticas de desarrollo en Odoo.
 
 ---
 
