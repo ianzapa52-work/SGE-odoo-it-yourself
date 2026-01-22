@@ -4,7 +4,7 @@
 **Autor:** Ian Zapatero López  
 **Módulo técnico:** `izl_peluqueria`  
 **Versión:** 1.0  
-**Categoría:** Servicios  
+**Categoría:** Servicios.  
 **Aplicación:** Sí  
 
 ---
@@ -26,17 +26,17 @@ El módulo utiliza el prefijo:
 Siguiendo la norma *abc_keyword*, donde:
 
 - **izl** → iniciales del alumno (Ian Zapatero López)  
-- **peluqueria** → palabra clave del dominio funcional  
+- **peluqueria** → palabra clave del dominio funcional.  
 
 Este prefijo se aplica en:
 
-- Modelos  
-- Vistas  
-- Acciones  
-- Menús  
-- Secuencias  
-- Informes  
-- Datos demo  
+- Modelos.  
+- Vistas.  
+- Acciones.  
+- Menús.  
+- Secuencias.  
+- Informes.  
+- Datos Demo.  
 
 ---
 
@@ -201,10 +201,10 @@ Incluye:
 
 Incluye:
 
-- 3 clientes  
-- 3 empleados  
-- 4 servicios  
-- 5 citas futuras  
+- 3 clientes.  
+- 3 empleados.  
+- 4 servicios.  
+- 5 citas futuras.  
 
 Permiten validar el funcionamiento del módulo sin introducir datos manualmente.
 
@@ -216,9 +216,9 @@ Permiten validar el funcionamiento del módulo sin introducir datos manualmente.
 
 Incluye:
 
-- Foto del cliente  
-- Nombre  
-- Listado de citas con fecha, servicio y empleado  
+- Foto del cliente.  
+- Nombre.  
+- Listado de citas con fecha, servicio y empleado.  
 
 Se genera desde un botón en la vista formulario del cliente.
 
@@ -277,12 +277,16 @@ El resultado es un módulo completo, funcional y alineado con las buenas prácti
 
 - Documentación general:  
   `https://www.odoo.com/documentation`
+
 - Desarrollo de módulos:  
   `https://www.odoo.com/documentation/17.0/developer`
+
 - Framework ORM:  
   `https://www.odoo.com/documentation/17.0/developer/reference/backend/orm`
+
 - Vistas y QWeb:  
   `https://www.odoo.com/documentation/17.0/developer/reference/frontend/qweb`
+
 - Seguridad en Odoo:  
   `https://www.odoo.com/documentation/17.0/developer/reference/security`
 
@@ -290,5 +294,6 @@ El resultado es un módulo completo, funcional y alineado con las buenas prácti
 
 - Tutoriales de Odoo (Odoo Mates):  
   `https://www.youtube.com/@OdooMates`
+
 - StackOverflow (etiqueta Odoo):  
   `https://stackoverflow.com/questions/tagged/odoo`
