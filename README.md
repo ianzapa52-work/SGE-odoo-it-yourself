@@ -213,6 +213,7 @@ Permiten validar el funcionamiento del módulo sin introducir datos manualmente.
 ## **11. Informes generados**
 
 ### **Informe PDF del Cliente**
+
 Incluye:
 
 - Foto del cliente  
@@ -272,9 +273,8 @@ El resultado es un módulo completo, funcional y alineado con las buenas prácti
 
 ## **16. Referencias bibliográficas (con enlaces)**
 
-Aquí tienes una lista ampliada, con enlaces reales y útiles:
-
 ### **Documentación oficial de Odoo**
+
 - Documentación general:  
   `https://www.odoo.com/documentation`
 - Desarrollo de módulos:  
@@ -287,6 +287,7 @@ Aquí tienes una lista ampliada, con enlaces reales y útiles:
   `https://www.odoo.com/documentation/17.0/developer/reference/security`
 
 ### **Recursos adicionales**
+
 - Tutoriales de Odoo (Odoo Mates):  
   `https://www.youtube.com/@OdooMates`
 - StackOverflow (etiqueta Odoo):  
