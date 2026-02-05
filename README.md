@@ -3,8 +3,8 @@
 ## **Peluquería IZL**  
 **Autor:** Ian Zapatero López  
 **Módulo técnico:** `izl_peluqueria`  
-**Curso:** 2ºA
-**Fecha:** 22-01-2026
+**Curso:** 2ºA  
+**Fecha:** 22-01-2026  
 **Versión:** 1.0  
 **Categoría:** Servicios.  
 **Aplicación:** Sí  
