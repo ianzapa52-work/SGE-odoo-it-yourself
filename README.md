@@ -127,7 +127,7 @@ Incluye validación para evitar citas en el pasado y secuencia automática.
 - Un **servicio** puede ser realizado por varios **empleados**.  
 
 ## Diagrama UML 
-![Diagrama UML del módulo izl_peluqueria](odoo\addons\izl_peluqueria\static\description\DiagramaIZLPeluqueria.drawio.png)
+![Diagrama UML del módulo izl_peluqueria](./static/description/DiagramaIZLPeluqueria.drawio.png)
 
 **Representación:**
 
@@ -182,14 +182,14 @@ Servicio "0..*" --> "0..*" Empleado : puede realizar >
 - Activity: gestión de actividades.
 
 ### Vista Kanban (Clientes)
-![Vista Kanban](odoo\addons\izl_peluqueria\static\description\kanban_clientes.png)
+![Vista Kanban](./static/description/kanban_clientes.png)
 
 ### **Empleados**
 - Tree y Form.  
 - Search con filtros por especialidad.
 
 ### Vista Search (Empleados)
-![Vista Search](odoo\addons\izl_peluqueria\static\description\search_empleados.png)
+![Vista Search](./static/description/search_empleados.png)
 
 ### **Servicios**
 - Tree y Form.  
@@ -202,10 +202,10 @@ Servicio "0..*" --> "0..*" Empleado : puede realizar >
 - Graph y Pivot para análisis.
 
 ### Vista Calendar (Citas)
-![Vista Calendar](odoo\addons\izl_peluqueria\static\description\calendar_citas.png)
+![Vista Calendar](./static/description/calendar_citas.png)
 
 ### Vista Gráfica (Citas por servicio)
-![Vista Graph](odoo\addons\izl_peluqueria\static\description\graph_citas.png)
+![Vista Graph](./static/description/graph_citas.png)
 
 ---
 
@@ -259,7 +259,7 @@ Incluye:
 Se genera desde el botón que se encuentra en la vista formulario del cliente.
 
 ### Informe PDF generado
-![Informe PDF](odoo\addons\izl_peluqueria\static\description\informe_cliente.png)
+![Informe PDF](./static/description/informe_cliente.png)
 
 ---
 
