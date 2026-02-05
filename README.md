@@ -127,7 +127,7 @@ Incluye validación para evitar citas en el pasado y secuencia automática.
 - Un **servicio** puede ser realizado por varios **empleados**.  
 
 ## Diagrama UML 
-![Diagrama UML del módulo izl_peluqueria](./static/description/DiagramaIZLPeluqueria.drawio.png)
+![Diagrama UML del módulo izl_peluqueria](./odoo/addons/izl_peluqueria/static/description/DiagramaIZLPeluqueria.drawio.png)
 
 **Representación:**
 
