@@ -3,9 +3,32 @@
 ## **Peluquería IZL**  
 **Autor:** Ian Zapatero López  
 **Módulo técnico:** `izl_peluqueria`  
+**Curso:** 2ºA
+**Fecha:** 22-01-2026
 **Versión:** 1.0  
 **Categoría:** Servicios.  
 **Aplicación:** Sí  
+
+---
+
+## **Índice** 
+
+1. Introducción 
+2. Nombre técnico y prefijo de identificadores 
+3. Objetivo y finalidad del módulo 
+4. Estructura general del módulo 
+5. Modelos implementados 
+6. Relaciones entre modelos (UML) 
+7. Vistas y experiencia de usuario 
+8. Menús y acciones 
+9. Seguridad y control de acceso 
+10. Datos de demostración 
+11. Informes generados 
+12. Actividades realizadas 
+13. Problemas encontrados 
+14. Conclusiones personales 
+15. Sugerencias de mejora 
+16. Referencias bibliográficas
 
 ---
 
@@ -103,7 +126,8 @@ Incluye validación para evitar citas en el pasado y secuencia automática.
 - Un **servicio** puede estar asociado a varias **citas**.  
 - Un **servicio** puede ser realizado por varios **empleados**.  
 
-## Diagrama UML ![Diagrama UML del módulo izl_peluqueria](odoo\addons\izl_peluqueria\assets\DiagramaIZLPeluqueria.drawio.png)
+## Diagrama UML 
+![Diagrama UML del módulo izl_peluqueria](odoo\addons\izl_peluqueria\static\description\DiagramaIZLPeluqueria.drawio.png)
 
 **Representación:**
 
@@ -157,9 +181,15 @@ Servicio "0..*" --> "0..*" Empleado : puede realizar >
 - Search: filtros por citas, agrupaciones y campos clave.  
 - Activity: gestión de actividades.
 
+### Vista Kanban (Clientes)
+![Vista Kanban](odoo\addons\izl_peluqueria\static\description\kanban_clientes.png)
+
 ### **Empleados**
 - Tree y Form.  
 - Search con filtros por especialidad.
+
+### Vista Search (Empleados)
+![Vista Search](odoo\addons\izl_peluqueria\static\description\search_empleados.png)
 
 ### **Servicios**
 - Tree y Form.  
@@ -170,6 +200,12 @@ Servicio "0..*" --> "0..*" Empleado : puede realizar >
 - Search con filtros de citas futuras/pasadas.  
 - Calendar para planificación.  
 - Graph y Pivot para análisis.
+
+### Vista Calendar (Citas)
+![Vista Calendar](odoo\addons\izl_peluqueria\static\description\calendar_citas.png)
+
+### Vista Gráfica (Citas por servicio)
+![Vista Graph](odoo\addons\izl_peluqueria\static\description\graph_citas.png)
 
 ---
 
@@ -221,6 +257,9 @@ Incluye:
 - Listado de citas con fecha, servicio y empleado.  
 
 Se genera desde el botón que se encuentra en la vista formulario del cliente.
+
+### Informe PDF generado
+![Informe PDF](odoo\addons\izl_peluqueria\static\description\informe_cliente.png)
 
 ---
 
